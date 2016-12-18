@@ -15,7 +15,6 @@
         onRemove: '&'
       }
     };
-
     return ddo;
   }
 
