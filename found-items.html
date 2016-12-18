@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-lg-12">
+    <ol>
+      <li ng-repeat="item in items">
+        {{ item.name }}, {{ item.short_name }}, {{ item.description }}
+        <button ng-click="onRemove({index: $index});">Remove</button>
+      </li>
+    </ol>
+    <div ng-if="items.length === 0">Nothing found</div>
+  </div>
+</div>
